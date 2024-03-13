@@ -40,13 +40,13 @@ notion <br>
 ## Wireframe
 
 메인페이지(회원가입, 로그인, 로그아웃 버튼)<br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/6b479714-e856-48c1-a88c-ecfbe9e7f0f5.png" height="400"/><br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/1f38e2cf-9a72-4baf-9271-65a12f6d4540.png" height="400"/><br>
 
 회원가입페이지(id, pw, email 등) <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/c9df14e1-524d-4fdf-805c-b2a1aea701e1.png" height="400"/><br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/79f2c27a-56de-4299-8d34-c5a643be2742.png" height="400"/><br>
 
 로그인페이지(id, pw) <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/fe5e275f-bb4e-434a-a5e2-ba8946bac9b9.png" height="400"/><br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/cab91a68-b386-461e-8149-7b18432f059f.png" height="400"/><br>
 
 블로그 작성, blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
 <br>
