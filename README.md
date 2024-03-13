@@ -26,7 +26,7 @@ firstblog
 
 ## Deployment
 GitHub : https://github.com/helloghostt/firstblog <br>
-URL : <br>
+URL : https://helloghostt.github.io/firstblog <br>
 <br>
 
 ## Technology Stack and Development Environment
