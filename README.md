@@ -4,7 +4,7 @@
 취미 블로그<br>
 - FBV(Function based view), MA(Monolithic architecture)<br>
 - 메인페이지에서 게시글 목록을 볼 수 있고 CRUD 기능 구현<br>
-- 로그인과 회원가입 기능 추 <br>
+- 로그인과 회원가입 기능 추가 <br>
 
 ## Folder Structure
 ```bash
