@@ -19,7 +19,7 @@ firstblog
 ```
 
 ## Deployment
-GitHub : https://github.com/helloghostt/firstblog
+GitHub : https://github.com/helloghostt/firstblog <br>
 URL : https://helloghostt.github.io/firstblog
 
 ## 기술스택 및 개발 환경
