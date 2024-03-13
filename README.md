@@ -43,26 +43,31 @@ notion <br>
 ## Wireframe
 
 메인페이지(회원가입, 로그인, 로그아웃 버튼)<br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/1f38e2cf-9a72-4baf-9271-65a12f6d4540.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/main.png" height="400"/><br> 
+
 
 회원가입페이지(id, pw, email 등) <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/79f2c27a-56de-4299-8d34-c5a643be2742.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/register.png" height="400"/><br> 
 
 로그인페이지(id, pw) <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/cab91a68-b386-461e-8149-7b18432f059f.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/login.png" height="400"/><br> 
+
 
 블로그 작성(목록, 초기화, 작성 버튼) <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/35365bb9-bdfd-4836-a28a-1d45f0bbc9c5.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/write.png" height="400"/><br> 
+
 
 채팅페이지 <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/9903a9c9-3cb2-4f96-9aac-ca56d32f43c5.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/chat.jpg" height="400"/><br> 
+
 
 comment, profile(변경, 수정 버튼)  <br>
 <br>
 
 ## ERD 
 dbdiagram <br>
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/5388b827-447f-42e4-8501-1ada1231cfce.png" height="400"/> <br>
+<img src="https://helloghostt.github.io/firstblog/static/images/erd.png" height="400"/><br> 
+
 
 
 
