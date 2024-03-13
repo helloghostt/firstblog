@@ -37,7 +37,7 @@ Version Control: Git, GitHub <br>
 
 ## WBS
 notion <br>
-![wbs](https://github.com/helloghostt/firstblog/assets/155081933/eee1ae26-3399-4248-926d-c3acb03cab5b) <br>
+<img src="./images/wbs.png" height="400"/><br>
 <br>
 
 ## Wireframe
