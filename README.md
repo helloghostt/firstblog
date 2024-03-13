@@ -1,5 +1,5 @@
 # firstblog 
-취미활동(Tennis)을 좋아하는 사람들의 모임
+취미 블로그
 <br>
 
 ## Folder Structure
