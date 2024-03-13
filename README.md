@@ -51,6 +51,9 @@ notion <br>
 블로그 작성(목록, 초기화, 작성 버튼) <br>
 <img src="https://github.com/helloghostt/firstblog/assets/155081933/35365bb9-bdfd-4836-a28a-1d45f0bbc9c5.png" height="400"/><br>
 
+채팅페이지 <br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/9903a9c9-3cb2-4f96-9aac-ca56d32f43c5.png" height="400"/><br>
+
 blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
 <br>
 
