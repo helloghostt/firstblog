@@ -1,7 +1,7 @@
+<img src=""C:\Users\lamar\ormcamp\Django\firstblog\static\images\rocket_ball.jpeg" height="200"/><br>
 # firstblog 
-취미 블로그
-<br>
-
+취미 블로그<br>
+- FBV(Function based view), MA(Monolithic architecture)<br>
 ## Folder Structure
 ```bash
 firstblog
