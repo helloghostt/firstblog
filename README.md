@@ -3,6 +3,9 @@
 # firstblog 
 취미 블로그<br>
 - FBV(Function based view), MA(Monolithic architecture)<br>
+- 메인페이지에서 게시글 목록을 볼 수 있고 CRUD 기능 구현<br>
+- 로그인과 회원가입 기능 추 <br>
+
 ## Folder Structure
 ```bash
 firstblog
@@ -25,7 +28,7 @@ GitHub : https://github.com/helloghostt/firstblog <br>
 URL : <br>
 <br>
 
-## 기술스택 및 개발 환경
+## Technology Stack and Development Environment
 Frontend: HTML, CSS <br>
 Backend: Python, Django <br>
 IDE: Visual Studio Code <br>
@@ -60,4 +63,6 @@ comment, profile(변경, 수정 버튼)  <br>
 ## ERD 
 dbdiagram <br>
 <img src="https://github.com/helloghostt/firstblog/assets/155081933/5388b827-447f-42e4-8501-1ada1231cfce.png" height="400"/> <br>
+
+
 
