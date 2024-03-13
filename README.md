@@ -39,7 +39,7 @@ notion <br>
 
 ## Wireframe
 
-메인페이지(회원가입, 로그인 버튼)
+메인페이지(회원가입, 로그인, 로그아웃 버튼)
 ![image](https://github.com/helloghostt/firstblog/assets/155081933/6b479714-e856-48c1-a88c-ecfbe9e7f0f5) <br>
 회원가입페이지(id, pw, email 등) <br>
 로그인페이지(id, pw) <br>
