@@ -37,7 +37,7 @@ Version Control: Git, GitHub <br>
 
 ## WBS
 notion <br>
-<img src="./images/wbs.png" height="400"/><br>
+<img src="https://helloghostt.github.io/firstblog/static/images/wbs.png" height="400"/><br>
 <br>
 
 ## Wireframe
@@ -58,7 +58,7 @@ notion <br>
 
 
 채팅페이지 <br>
-<img src="https://helloghostt.github.io/firstblog/static/images/chat.jpg" height="400"/><br> 
+<img src="https://helloghostt.github.io/firstblog/static/images/chat.png" height="400"/><br> 
 
 
 comment, profile(변경, 수정 버튼)  <br>
