@@ -40,7 +40,7 @@ notion <br>
 ## Wireframe
 
 메인페이지(회원가입, 로그인, 로그아웃 버튼)
-<img src="https://github.com/helloghostt/firstblog/assets/155081933/6b479714-e856-48c1-a88c-ecfbe9e7f0f5.png" width="700" height="400"/><br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/6b479714-e856-48c1-a88c-ecfbe9e7f0f5.png" height="400"/><br>
 
 회원가입페이지(id, pw, email 등) 
 <img src="https://github.com/helloghostt/firstblog/assets/155081933/c9df14e1-524d-4fdf-805c-b2a1aea701e1.png" width="700" height="400"/><br>
