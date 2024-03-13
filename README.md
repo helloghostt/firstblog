@@ -2,6 +2,7 @@
 취미활동(테니스)을 좋아하는 사람들의 모임
 
 ## Folder Structure
+```bash
 firstblog
 ├── tutorialdjango
 ├── account
@@ -15,6 +16,7 @@ firstblog
 │   └── images
 └── static
     └── css
+```
 
 ## Deployment
 
