@@ -48,7 +48,10 @@ notion <br>
 로그인페이지(id, pw) <br>
 <img src="https://github.com/helloghostt/firstblog/assets/155081933/cab91a68-b386-461e-8149-7b18432f059f.png" height="400"/><br>
 
-블로그 작성, blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
+블로그 작성(목록, 초기화, 작성 버튼) <br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/35365bb9-bdfd-4836-a28a-1d45f0bbc9c5.png" height="400"/><br>
+
+blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
 <br>
 
 ## ERD 
