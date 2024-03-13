@@ -1,4 +1,5 @@
-<img src="C:\Users\lamar\ormcamp\Django\firstblog\static\images\rocket_ball.jpeg" height="200"/><br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/2fc24bbb-4638-4b1f-aeb9-779a0d973ffd.jpeg" height="200"/><br> 
+
 # firstblog 
 취미 블로그<br>
 - FBV(Function based view), MA(Monolithic architecture)<br>
