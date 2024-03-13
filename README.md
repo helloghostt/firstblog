@@ -53,5 +53,5 @@ notion <br>
 
 ## ERD 
 dbdiagram <br>
-![erd](https://github.com/helloghostt/firstblog/assets/155081933/5388b827-447f-42e4-8501-1ada1231cfce) <br>
+<img src="https://github.com/helloghostt/firstblog/assets/155081933/5388b827-447f-42e4-8501-1ada1231cfce.png" height="400"/> <br>
 
