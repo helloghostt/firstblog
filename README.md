@@ -38,7 +38,12 @@ notion <br>
 <br>
 
 ## Wireframe
-메인페이지(회원가입, 로그인 버튼), 회원가입페이지(id, pw, email), 로그인페이지(id, pw), 블로그 작성, blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
+
+메인페이지(회원가입, 로그인 버튼)
+![image](https://github.com/helloghostt/firstblog/assets/155081933/6b479714-e856-48c1-a88c-ecfbe9e7f0f5) <br>
+회원가입페이지(id, pw, email 등) <br>
+로그인페이지(id, pw) <br>
+블로그 작성, blog_list, blog_detail, comment, profile(변경, 수정 버튼)  <br>
 <br>
 
 ## ERD 
