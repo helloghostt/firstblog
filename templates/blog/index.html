@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>게시판</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <link rel="stylesheet" href="{% static 'css/table.css' %}">
+  <link rel="stylesheet" href="{% static 'css/list.css' %}">
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header">
+    <h1><a href="/">BLOG </a></h1>
+    <div class="header-click">
+      <a href="{% url 'chat' %}">채팅</a>
+      <a href="{% url 'login' %}">로그인</a>
+      <a href="{% url 'register' %}">회원가입</a>
+      <button type="button">로그아웃</button>
+    </div>
+  </div>
+  <!-- // header -->
+
+  <div class="main">
+    <h2 class="main-title">게시판</h2>
+
+    <div class="board-top">
+      <p class="main-desc"><strong>2개</strong>의 게시글이 있습니다.</p>
+
+      <div>
+        <label for="category" class="a11y-hidden">카테고리</label>
+        <select id="category">
+          <option>전체</option>
+          <option>공지사항</option>
+          <option>일반</option>
+        </select>
+        <form class="search-form" action="{% url 'search' %}" method="GET">
+          <label for="search" class="a11y-hidden">검색</label>
+          <input id="search" type="search" placeholder="검색어를 입력해주세요">
+          <button type="submit">
+            <img src="{% static 'images/icon-search.png' %}" alt="검색">
+          </button>
+        </form>
+
+        <label for="sort" class="a11y-hidden">정렬</label>
+        <select id="sort">
+          <option>조회순</option>
+          <option>최신순</option>
+        </select>
+      </div>
+    </div>
+
+
+    <!-- 게시판 리스트 -->
+    <table class="table list">
+      <colgroup>
+        <col style="width: 40px">
+        <col style="width: 60px">
+        <col>
+        <col style="width: 100px">
+        <col style="width: 120px">
+        <col style="width: 100px">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>
+            <input type="checkbox" id="all-article">
+            <!-- <label for="all-article">페이지 전체 게시글 선택</label> -->
+          </th>
+          <th>번호</th>
+          <th>제목</th>
+          <th>작성자</th>
+          <th>작성일</th>
+          <th>조회수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 게시글이 없을때 / 검색한 게시글이 없을때 -->
+        <!-- <tr>
+            <td class="nodata" colspan="5">등록된 게시물이 없습니다.</td>
+          </tr> -->
+        <!-- 게시글이 있을때 -->
+        <tr>
+          <td>
+            <input type="checkbox" id="check2">
+            <!-- <label for="check1">2번 게시글</label> -->
+          </td>
+          <td>2</td>
+          <td>
+            <a href="#"> 테니스화는 뭘 사야할까요?
+            </a>
+          </td>
+          <td>안유진</td>
+          <td>2024.03.13</td>
+          <td>999</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="check1">
+            <!-- <label for="check1">2번 게시글</label> -->
+          </td>
+          <td>1</td>
+          <td>
+            <a href="view.html">테린이입니다</a>
+          </td>
+          <td>장원영</td>
+          <td>2024.03.14</td>
+          <td>999</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- //게시판 리스트 -->
+
+
+    <div class="board-bottom">
+      <!-- 페이지 -->
+      <div class="pagination">
+      
+        <a href="#"><img src="{% static 'images/prev.png' %}" alt="이전 페이지">
+        </a>
+        <a href="#" class="num active">1</a>
+        <a href="#" class="num">2</a>
+        <a href="#" class="num">3</a>
+        <a href="#" class="num">4</a>
+        <a href="#" class="num">5</a>
+        <a href="#"><img src="{% static 'images/next.png' %}" alt="다음 페이지">
+        </a>
+      </div>
+      <!-- //페이지 -->
+      <div class="btn-group">
+        <button class="btn">선택삭제</button>
+        <a href="{% url 'post_write' %}" class="btn">글쓰기</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <p class="footer">Copyright @ 2024. helloghostt. All rights reserved.</p>
+  <!-- //footer -->
+</body>
+
+</html>

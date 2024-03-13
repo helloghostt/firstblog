@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% if form.instance.pk %}
+    <h2>게시글 수정</h2>
+  {% else %}
+    <h2>새 게시글 작성</h2>
+  {% endif %}
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">저장</button>
+  </form>
+{% endblock %}

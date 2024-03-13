@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/common.css' %}">
+  <link rel="stylesheet" href="{% static 'css/login-join.css' %}">
+</head>
+
+<body>
+  <!-- header -->
+  <div class="header">
+    <h1><a href="/">BLOG</a></h1>
+    <div class="header-click">
+      <a href="{% url 'login' %}">로그인</a>
+    </div>
+  </div>
+  <!-- // header -->
+
+  <div class="main">
+    <div class="container">
+      <h2 class="title">회원가입</h2>
+      <p class="description">
+        원활한 서비스를 이용을 위해 회원가입을 해주세요
+      </p>
+
+      <form class="login">
+        <div>
+          <label class="label-width" for="user-id">아이디</label>
+          <input type="text" id="user-id" name="userId" required>
+        </div>
+        <div>
+          <label class="label-width" for="user-email">이메일</label>
+          <input type="email" id="user-email" name="userEmail" required>
+        </div>
+        <div>
+          <label class="label-width" for="user-pw">비밀번호</label>
+          <input type="password" id="user-pw" name="userPw" required>
+        </div>
+
+        <fieldset class="field">
+          <legend>성별</legend>
+          <ul>
+            <li>
+              <input name="gender" type="radio" id="gender1">
+              <label for="gender1">남성</label>
+            </li>
+            <li>
+              <input name="gender" type="radio" id="gender2">
+              <label for="gender2">여성</label>
+            </li>
+            <li>
+              <input name="gender" type="radio" id="gender3">
+              <label for="gender3">선택 안함</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="field">
+          <legend>테니스 레벨</legend>
+          <label for="sort" class="a11y-hidden">레벨 선택</label>
+          <select id="sort">
+            <option>초보자</option>
+            <option>중급자</option>
+            <option>전문가</option>
+          </select>
+        </fieldset>
+        <button class="submit-button" type="submit">회원가입</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <p class="footer">Copyright @ 2024. helloghostt. All rights reserved.</p>
+  <!-- //footer -->
+</body>
+
+</html>

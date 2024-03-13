@@ -1,0 +1,85 @@
+/* 전체 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 게시글 목록 스타일 */
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-list li h3 {
+    margin-top: 0;
+}
+
+.post-list li p {
+    margin-bottom: 0;
+}
+
+/* 게시글 상세 페이지 스타일 */
+.post-detail h2 {
+    margin-top: 0;
+}
+
+.post-detail p {
+    line-height: 1.5;
+}
+
+/* 폼 스타일 */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}

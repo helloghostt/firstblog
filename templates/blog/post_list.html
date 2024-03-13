@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>게시글 목록</h2>
+  {% for post in posts %}
+    <div>
+      <h3><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h3>
+      <p>{{ post.content|truncatewords:20 }}</p>
+    </div>
+  {% endfor %}
+{% endblock %}
