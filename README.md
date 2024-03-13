@@ -1,4 +1,4 @@
-<img src="https://helloghostt/github.io/firstblog/static/images/red_Ball_court.jpg" height="400"/><br> 
+<img src="https://helloghostt.github.io/firstblog/static/images/red_Ball_court.jpg" height="400"/><br> 
 
 # firstblog 
 취미 블로그<br>
