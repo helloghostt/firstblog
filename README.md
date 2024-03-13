@@ -11,11 +11,10 @@ firstblog
 │   └── static
 │       └── blog
 ├── templates
-│   └── account
+│   ├── account
 │   └── blog
-├── media
-│   └── images
 └── static
+    ├── images
     └── css
 ```
 <br>
