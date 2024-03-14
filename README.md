@@ -69,6 +69,7 @@ comment, profile(변경, 수정 버튼)  <br>
 dbdiagram <br>
 <img src="https://helloghostt.github.io/firstblog/static/images/erd.png" height="400"/><br> 
 
-
-
-
+## Troubleshooting
+makemigrations와 migrate가 안되었던 것에 대한 해결<br>
+1. migrations폴더에 0001 0002 넘버링 된 것을 다 지웁니다.<br>
+2. sqlite3 파일을 지웁니다.<br>
